@@ -17,7 +17,7 @@ This is an [Active Learning](https://en.wikipedia.org/wiki/Active_learning_(mach
 Active Learning is useful when labelling is expensive, but can be prone to feedback loops depending on how the iterations are constructed.
 This app presents three columns of names, here referred to as A, B and C, from which the user is to select a single name as the most preferred for the round.
 
-![Column layout](docs/screen a.png)
+<img src="https://raw.githubusercontent.com/captainpete/earnest/refs/heads/main/docs/screen%20a.png"/>
 
 - Column A is sampled from the current top 200 names
 - Column B is sampled from the next 800 (200:1000) names
@@ -32,7 +32,7 @@ After a few rounds, I've found this model learns a preference relatively quickly
 One imagines the features are quite informative, specifically the embedding vector - which encodes all manner of historical, literate, and cultural associations.
 Results are displayed after each round.
 
-![Column layout](docs/screen b.png)
+<img src="https://raw.githubusercontent.com/captainpete/earnest/refs/heads/main/docs/screen%20b.png"/>
 
 ### Bias
 
